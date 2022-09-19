@@ -22,3 +22,6 @@
 
 # for proper indention
 # terraform fmt
+
+# The terraform taint command manually marks a Terraform-managed resource as tainted, forcing it to be destroyed and recreated on the next apply.
+# terraform taint aws_security_group.allow_tls
