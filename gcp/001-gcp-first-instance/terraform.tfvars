@@ -1,0 +1,6 @@
+project_id    = "project_id"
+region        = "us-central1"
+instance_name = "fateh-terraform-test"
+zone          = "us-central1-c"
+machine_type  = "n2-standard-2"
+image_name    = "debian-cloud/debian-11"
