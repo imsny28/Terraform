@@ -1,10 +1,4 @@
-#creating the GCP instance
-
-provider "google" {
-  credentials = file("${path.module}/credentials.json")
-  project     = var.project_id
-  region      = var.region
-}
+# creating the GCP instance
 
 resource "google_compute_instance" "webserver" {
   name         = var.instance_name
